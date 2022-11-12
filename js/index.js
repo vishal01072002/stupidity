@@ -29,7 +29,7 @@ function handleclick() {
                 nameDone = true;
         }
         if (nameDone) {
-            document.querySelector("h2").innerHTML = "let's take test to know, are you stupid or not ?";
+            document.querySelector("h2").innerHTML = "let's take test to know";
         }
 
         // console.log(buttonName); // ---------------------
@@ -55,7 +55,7 @@ function handleclick() {
         }
         else {
             if (buttonName == "YES") {
-                document.querySelector("h2").innerHTML = "So " + testerName + ", you confirm that you are stupid";
+                document.querySelector("h2").innerHTML = "So you confirm that you are stupid";
             }
 
             else { // num
