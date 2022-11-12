@@ -1,0 +1,164 @@
+body{
+    background-color: grey;
+}
+.visiblity{
+    display: none;
+}
+
+.toggled{
+    visibility: hidden;
+}
+
+.main-heading {
+    text-align: center;
+}
+.no span{
+    color: white;
+}
+h1{
+    display: inline;
+    margin-right: 20px;
+}
+.name{
+    text-align: center;
+    margin: auto;
+}
+
+.containers{
+    margin: 1rem;
+    align-items: center;
+}
+
+.btn-container{
+    background: #000;
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-items: center;
+    padding: 5rem 0;
+    
+}
+
+.container1{
+    /* background: red; */
+    justify-content: center;
+    
+}
+
+.container2{
+    /* background-color: blue; */
+    justify-content: center;
+    /* padding: 1rem 1rem; */
+   
+}
+
+.enter-name{
+    /* margin-top: 2px; */
+    height: 2.5rem;
+    width: 10rem;
+    border-style: none;
+    border-radius: 7px;
+    font-size: 1.2rem;
+
+}
+
+.submit-btn{
+    margin-left: 10px;
+    background: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5.5px 12px;
+}
+
+.btn{
+    height: 30px;
+    width: 40px;
+}
+.ques{
+    margin-top: 2rem;
+}
+.mybtn-1 {
+    /* display: inline-block; */
+    margin: 2rem;
+}
+.button-1{
+    margin: auto;
+    display: inline;
+}
+.button-2 {
+    /* text-align: center; */
+    display: inline;
+    margin: auto;
+}
+
+.btn-num-1{
+    margin-top: 10rem;
+    /* visibility: hidden; */
+}
+.btn-num-2{
+    margin-bottom: 10rem;
+    /* visibility: hidden; */
+}
+.btn-num-3{
+    margin-top: 15rem;
+    /* visibility: hidden; */
+}
+.btn-num-4{
+    margin-bottom: 15rem;
+    /* visibility: hidden; */
+}
+.btn-num-5{
+    margin-top: 10rem;
+    /* visibility: hidden; */
+}
+
+.btn-num-7{
+    margin-top: 15rem;
+    /* visibility: hidden; */
+}
+.btn-num-8{
+    margin-bottom: 10rem;
+    /* visibility: hidden; */
+}
+.btn:hover{
+    background-color: white;
+}
+
+@media screen and (max-width: 655px) {
+    h1,h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-right: 0;
+          
+    }
+    .containers{
+        margin: 0.2rem;
+    }
+
+    .submit-btn{
+        margin: 7px;
+    }
+
+    .ques{
+        margin-top: 7px;
+    }
+
+    .btn-num-1 ,.btn-num-5{
+        margin-top: 3rem;
+    }
+    .btn-num-2 ,.btn-num-8{
+        margin-bottom: 3rem;
+    }
+    .btn-num-3 , .btn-num-7{
+        margin-top: 4rem;
+    }
+    .btn-num-4{
+        margin-bottom: 4rem;
+    }
+    .btn-container{
+        margin-top: 2rem;
+        padding: 3rem 0px;
+    }
+}
